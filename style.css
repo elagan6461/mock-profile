@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    background-color: black;
+    width: 1000;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.nav-title {
+    color: white;
+    font-weight: 700;
+    padding: 50px;
+}
+
+.nav-link *{
+    display: inline-block;
+    text-decoration: none;
+    color: lightgray;
+    padding: 5px;
+    list-style-type: none;
+    font-weight: 500;
+}
+
+.active {
+    color: antiquewhite;
+    font-weight: 500;
+}
+
+.logOff {
+    display: inline-block;
+    align-items: right;
+    justify-content: flex-end;
+    background-color: #17a2b8;
+    color:antiquewhite;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.logOffBtn {
+    background-color: #17a2b8;
+    color:antiquewhite;
+    font-weight: 500;
+    border: 2px solid;
+    border-color: black;
+    box-shadow: 5px 5px black;
+}
+
+.container-1 {
+    background-color: white;
+    width: 75%;
+    height: 1250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.row {
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    align-items: top;
+    justify-content: space-around;
+}
+
+.col1 {
+    width: 650px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.userPro {
+    border: 4px solid lightgray;
+    width: 500px;
+    height: 350px;
+    margin: 10px;
+}
+
+.userHdr {
+    background-color: rgb(33, 163, 233);
+    height: 100px;
+}
+
+.userHdr img{
+    margin: 50px 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 4px solid lightgray;
+}
+
+.userInfo {
+    margin: 50px 20px;
+    font-size: larger;
+}
+
+.userInfo p {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.userInfo h3, .userInfo h1 {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.icons {
+    height: 15px;
+    width: 15px;
+}
+
+.education {
+    border: 4px solid lightgray;
+    width: 500px;
+    height: 250px;
+}
+
+.edHdr h2 {
+    height: 40px;
+    background-color: rgb(49, 47, 47);
+    color: white;
+    margin-top: 0;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.edInfo {
+    margin: 20px 15px 15px 20px;
+}
+
+.edInfo h3 {
+    font-weight: 800;
+    font-size: 1.75em;
+    margin-bottom: 0;
+}
+
+.edDate  {
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-top: .5em;
+    color: rgb(101, 99, 99)
+}
+
+.skillLevel {
+    font-size: 1.25em;
+    font-weight: 600;
+    margin-top: .5em;
+}
+
+.col2 {
+    width: 400px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.conReq {
+    border: 4px solid lightgray;
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+}
+
+.conHdr {
+    height: 40px;
+    background-color: rgb(49, 47, 47);
+    color: white;
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.crNum {
+    background-color: grey;
+    color: black;
+    border-radius: 12px;
+    height: 25px;
+    padding: 0 10px;
+    margin-right: 15px;
+}
+
+.incomingReq {
+    padding: 15px;
+}
+
+.name {
+    position: relative;
+    top: -15px;
+}
+
+.img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+.connections {
+    border: 4px solid lightgray;
+    width: 350px;
+    height: 350px;
+}   
+
+.cNum {
+    background-color: grey;
+    color: black;
+    border-radius: 12px;
+    height: 25px;
+    padding: 0 10px;
+    margin-right: 15px;
+}
+
+.actualCon {
+    padding: 15px;
+}
+
+.conEnd {
+    border-top: 4px solid lightgray;
+    width: 320px;
+    height: 100px;
+    font-size: x-large;
+    font-weight: 600;
+    color: rgb(152, 212, 233);
+    margin:0;
+    padding: 10px;
+    
+}
